@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HealthcareClient.jnlp">
+  <information>
+    <title>HealthcareClient</title>
+    <vendor>Amar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HealthcareClient.jar" size="25894" download="eager" />
+    <jar href="lib\FastInfoset.jar" size="311876" download="eager" />
+    <jar href="lib\codemodel.jar" size="160125" download="eager" />
+    <jar href="lib\dtd-parser.jar" size="59948" download="eager" />
+    <jar href="lib\istack-commons-runtime.jar" size="25523" download="eager" />
+    <jar href="lib\istack-commons-tools.jar" size="27596" download="eager" />
+    <jar href="lib\javax.activation-api.jar" size="56674" download="eager" />
+    <jar href="lib\jaxb-api.jar" size="128076" download="eager" />
+    <jar href="lib\jaxb-jxc.jar" size="132058" download="eager" />
+    <jar href="lib\jaxb-runtime.jar" size="1093432" download="eager" />
+    <jar href="lib\jaxb-xjc.jar" size="986956" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\relaxng-datatype.jar" size="15601" download="eager" />
+    <jar href="lib\rngom.jar" size="317643" download="eager" />
+    <jar href="lib\stax-ex.jar" size="36073" download="eager" />
+    <jar href="lib\txw2.jar" size="70288" download="eager" />
+    <jar href="lib\xsom.jar" size="426721" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="HealthcareClient" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.health.app.HealthcareClient"  name="HealthcareClient" />
+  <update check="always"/>
+</jnlp>
